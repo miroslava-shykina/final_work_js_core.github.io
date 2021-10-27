@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>My page</title>
+	<link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+	<div class="modal-container">
+		<div class="confirm">
+			<div class="message">You still have time, you sure</div>
+			<div class="buttons">
+				<input type="button" value="Close" class="butt-close">
+				<input type="button" value="Check" class="butt-check">
+			</div>
+		</div>
+	</div>
+	<div class="time-block">
+		<div class="timer">01:00</div>
+		<div>
+			<input type="button" class="button start" onclick="startGame()" value="Start game!">
+			<input type="button" class="button check disabled" onclick="checkResult()" value="Check result">
+			<input type="button" class="button new-game" onclick="newGame()" value="New game">
+		</div>
+	</div>
+	<div class="puzzle-block">
+		<div class="parend-1">
+			<div class="child paz-1"></div>
+			<div class="child paz-2"></div>
+			<div class="child paz-3"></div>
+			<div class="child paz-4"></div>
+			<div class="child paz-5"></div>
+			<div class="child paz-6"></div>
+			<div class="child paz-7"></div>
+			<div class="child paz-8"></div>
+			<div class="child paz-9"></div>
+			<div class="child paz-10"></div>
+			<div class="child paz-11"></div>
+			<div class="child paz-12"></div>
+			<div class="child paz-13"></div>
+			<div class="child paz-14"></div>
+			<div class="child paz-15"></div>
+			<div class="child paz-16"></div>
+		</div>
+		<div class="parend-2">
+			<div class="child-2 paz-01"></div>
+			<div class="child-2 paz-02"></div>
+			<div class="child-2 paz-03"></div>
+			<div class="child-2 paz-04"></div>
+			<div class="child-2 paz-05"></div>
+			<div class="child-2 paz-06"></div>
+			<div class="child-2 paz-07"></div>
+			<div class="child-2 paz-08"></div>
+			<div class="child-2 paz-09"></div>
+			<div class="child-2 paz-010"></div>
+			<div class="child-2 paz-011"></div>
+			<div class="child-2 paz-012"></div>
+			<div class="child-2 paz-013"></div>
+			<div class="child-2 paz-014"></div>
+			<div class="child-2 paz-015"></div>
+			<div class="child-2 paz-016"></div>
+		</div>
+	</div>
+	<script src="jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
