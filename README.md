@@ -1,2 +1,3 @@
-# it-academy-logos-lesson-12
+# it-academy-logos-final_work_js_core
+
 First project
